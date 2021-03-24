@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('../partials/head') %> 
+  <title><%= title %> </title>
+</head>
+<body>
+  <header>
+    <%-include('../partials/header') %>
+  </header>
+  <div class="middle">
+    <div class="middle-inner">
+      <h1 class="host-name"><b>Lawliet</b> <b class="Host">Host&trade;</b></h1>
+      <p>Lawliet Host - The best free & paid hosting offering game server hosting, bot hosting, VPS hosting and web hosting for the cheapest prices in the market and an average review score of 4.9 out of 5!</p>
+      <a class="get-started" href="/">Get Started</a>
+    </div>
+  </div>
+  <div class="features">
+    <h1>About us</h1>  
+    <div class="features-inner">
+      <div class="featured-item">
+        <h3>Feature #1</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, neque! Quos commodi id perferendis voluptate, porro distinctio, eaque neque eos expedita enim consequuntur dolores molestiae minus iste, corporis tempora. Magni.</p>
+      </div>
+      <div class="featured-item">
+        <h3>Feature #2</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, neque! Quos commodi id perferendis voluptate, porro distinctio, eaque neque eos expedita enim consequuntur dolores molestiae minus iste, corporis tempora. Magni.</p>
+      </div>
+      <div class="featured-item">
+        <h3>Feature #3</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, neque! Quos commodi id perferendis voluptate, porro distinctio, eaque neque eos expedita enim consequuntur dolores molestiae minus iste, corporis tempora. Magni.</p>
+      </div>
+    <div class="featured-item">
+      <h3>Feature #4 </h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, neque! Quos commodi id perferendis voluptate, porro distinctio, eaque neque eos expedita enim consequuntur dolores molestiae minus iste, corporis tempora. Magni.</p>
+    </div>
+  </div>
+</div>
+<div class="reviews">
+  <h1>Still don't trust us?</h1>
+  <p class="check-reviews">check out our reviews!</p>
+  <div class="reviews-inner">
+    <div class="review-item">
+      <h3>Author name #1</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #2</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #3</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #4</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #5</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #6</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #7</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #8</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #9</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #10</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #11</h3>
+      <p>Author review</p>
+    </div>
+    <div class="review-item">
+      <h3>Author name #12</h3>
+      <p>Author review</p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <%- include("../partials/footer") %> 
+</div>
+</body>
 </html>
