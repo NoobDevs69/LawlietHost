@@ -1,17 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    /* background-color: #9cacbf; */
     color: #e3e8f0;
     background-color:#060e14;
+    
 }
 
 a {
   color: #00B7FF;
 }
+
 .header{
     padding: 0 45px;
-    /* background-color: rgb(2, 47, 67); */
     background-color: rgb(4, 8, 10);
     color: white;
     display: flex;
@@ -32,7 +35,7 @@ a {
 }
 .nav a:hover{
     color: #c5cae9;
-    transform: rotate(6deg);
+    transform: rotate(1deg);
 }
 .nav{
     margin: 0;
@@ -120,9 +123,8 @@ a {
     color: orange;
     font-style: initial;
 }
-/*  */
+
 .reviews{
-    /* background-color: #2b6684; */
     background-image: url('../images/reviews.png');
     object-fit: cover;
     background-size: cover;
@@ -145,7 +147,6 @@ a {
     grid-row-gap: 45px;
 }
 .about-us{
-    /* padding: 60px 45px; */
     display: flex;
     justify-content: center;
     background-image: url('../images/about-us.png');
@@ -153,13 +154,10 @@ a {
 
 }
 
-
 .about-us-inner{
     max-width: 800px;
     font-size: 1.5rem;
     text-align: center;
-    /* padding: 30px 60px; */
-    /* also ig we should get new image for contact us and stuffs? */
 }
 .about-us-content{
     font-size: 1rem;
@@ -167,8 +165,6 @@ a {
 
 }
 .contact-us{
-    /* padding: 60px 45px; */
-    /* when did u learn flex box :tho */
     display: flex;
     justify-content: center;
 }
@@ -177,9 +173,45 @@ a {
     max-width: 800px;
     font-size: 1.5rem;
     text-align: center;
-    /* padding: 30px 60px; */
 }
 .contact-us-content{
     font-size: 1rem;
     max-width: 600px
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    max-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
